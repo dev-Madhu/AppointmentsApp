@@ -1,0 +1,207 @@
+/* Write your CSS here */
+.app-container {
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  min-height: 100vh;
+}
+.appointments {
+  background-color: #ffffff;
+  width: 85%;
+  max-width: 550px;
+  border-radius: 12px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+@media screen and (min-width: 768px) {
+  .appointments {
+    width: 78%;
+    max-width: 1120px;
+  }
+}
+
+.front-view {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 86%;
+  max-width: 972px;
+}
+
+.text-section {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 64px;
+}
+.app-heading {
+  font-family: 'Roboto';
+  font-size: 36px;
+  color: #171f46;
+  font-weight: bold;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .form {
+    width: 45%;
+    max-width: 320px;
+  }
+}
+
+.title {
+  font-size: 15px;
+  font-weight: 600;
+  color: #b5b7c4;
+  font-weight: bold;
+}
+.input-title {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 7px;
+  border: 1px solid #b5b7c4;
+  margin-bottom: 12px;
+}
+
+.filter-filled {
+  color: #ffffff;
+  background-color: #9897f0;
+}
+
+.filter-empty {
+  color: #9897f0;
+  background-color: white;
+  border: 1px solid #9897f0;
+}
+.label {
+  color: #7e858e;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.input {
+  color: #131415;
+  font-family: 'Roboto';
+  font-size: 12px;
+  border: 1px solid #7e858e;
+  border-radius: 4px;
+  height: 40px;
+  padding-left: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-bottom: 24px;
+  outline: none;
+}
+
+.add-button {
+  background-color: #8b5cf6;
+  color: white;
+  font-size: 12px;
+  font-family: 'Roboto';
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 16px;
+  padding-left: 16px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 6px;
+  margin-top: 12px;
+  align-self: flex-start;
+}
+.image {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .image {
+    display: block;
+    width: 80%;
+  }
+}
+.hr-line {
+  width: 100%;
+  border: 1px solid #b5b7c4;
+  margin-top: 25px;
+  margin-bottom: 32px;
+}
+.below-view {
+  display: flex;
+  align-items: center;
+  align-self: stretch;
+  justify-content: space-between;
+}
+@media screen and (min-width: 768px) {
+  .below-view {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
+
+.starred {
+  height: 40px;
+  width: 130px;
+  color: #9897f0;
+  background-color: transparent;
+  border: 1px solid #9796f0;
+  border-radius: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 50px;
+}
+.heading {
+  color: #171f46;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  margin: 0;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 24px;
+  }
+}
+.appoint-lists {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0px;
+  margin-top: 24px;
+}
+@media screen and (min-width: 768px) {
+  .appoint-lists {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+.filter-style {
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 600;
+  border-radius: 25px;
+  padding-left: 16px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-right: 16px;
+  border: none;
+  outline: none;
+}
+
+.filter-empty {
+  color: #9897f0;
+  background-color: white;
+  border: 1px solid #9897f0;
+}
